@@ -10,7 +10,7 @@
 2. Navigate to this project
 3. Run `pip install -r requirements.txt` to install dependencies
 4. Run `export LINKEDIN_EMAIL="`{you linkedin email}"&& `export 	LINKEDIN_PASSWORD="`{your linkedin password}`"`
-5. Run `python3 linkedin.py`
+5. Run `python3 bot.py`
 
 
 
