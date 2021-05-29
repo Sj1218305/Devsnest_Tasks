@@ -1,17 +1,17 @@
 from selenium import webdriver
 import time
 import os
-from webdriver_manager.chrome import ChromeDriverManager
+# from webdriver_manager.chrome import ChromeDriverManager
 
 
 LINKEDIN_EMAIL = os.environ['LINKEDIN_EMAIL']
 LINKEDIN_PASSWORD = os.environ['LINKEDIN_PASSWORD']
 
-driver = webdriver.Chrome(ChromeDriverManager().install())
+# driver = webdriver.Chrome(ChromeDriverManager().install())
 
-#or
-# PATH = "/home/jain/Downloads/chromedriver"
-# driver = webdriver.Chrome(PATH)
+
+PATH = "/home/jain/Downloads/chromedriver"
+driver = webdriver.Chrome(PATH)
 
 driver.get("https://www.linkedin.com")
 driver.maximize_window()
