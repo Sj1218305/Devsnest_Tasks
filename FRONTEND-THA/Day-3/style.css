@@ -1,0 +1,72 @@
+#resume-container{
+    text-align: center;
+}
+
+legend{
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+#full-name > h2 {
+  margin-bottom: 0px;
+}
+
+#profile > h6 {
+   margin-top:0px;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: 48% 1% 50%;
+  grid-column-gap: 1em;
+}
+
+.grid-item{
+  text-align: left;
+}
+
+.divider {
+  border-left: 3px solid green;
+  height: 58em; 
+ }  
+/* doubt on changing height of divider */
+
+#content-left {
+  display: grid;
+  grid-template-rows: 18% 21% 18% 18%;
+  margin-left: 2em;
+}
+
+#content-right {
+  margin-left: 2em;
+  display: grid;
+  grid-template-rows: auto auto ;
+}
+
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: larger;
+  margin-bottom: 0px;
+}
+
+h4 {
+  font-size: x-large;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#sub-r-1 > h5{
+  margin-top: 14px;
+}
+
+#sub-r-1 > p{
+  font-family: 'Roboto', sans-serif;
+}
+
+#sub-r-2 > h5{
+  margin-top: 10px;
+}
+
+#sub-r-2 > p{
+  font-family: 'Roboto', sans-serif;
+}
