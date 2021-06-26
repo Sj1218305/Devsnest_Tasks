@@ -1,0 +1,37 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+  overflow: hidden;
+  background: #fff;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.box{
+	width: 20px;
+	height: 20px;
+	background-color: #DE4738;
+	box-sizing: border-box;
+	border: 1px solid #E24E3F;
+	cursor: pointer;
+}
+
+.center{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.switch {
+	background-color: #fff;
+	border: none;
+}
