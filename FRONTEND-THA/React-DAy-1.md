@@ -1,6 +1,6 @@
 ## CODE -  
 
-[](https://stackblitz.com/edit/reacttha-day-1?file=src/App.js)
+https://stackblitz.com/edit/reacttha-day-1?file=src/App.js
 
 ## DEPLOYED - 
 
